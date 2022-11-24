@@ -3,4 +3,4 @@
 set -e
 set -x
 
-uvicorn YacineTV:app --reload
+uvicorn main:app --reload
