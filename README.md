@@ -35,7 +35,7 @@ This is an unofficial api wrapper for yacineapp.tv in python. With this api you 
 Clone the project
 
 ```bash
-  git clone https://github.com/aimadnet/yacinetv-api
+  git clone https://github.com/burhansyam/yacinetv-api
 ```
 
 Go to the project directory
