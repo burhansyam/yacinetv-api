@@ -23,4 +23,4 @@ def channel(channel_id: int):
 
 @router.get("/event/{channel_id}")
 def event(event_id: int):
-    return ytv.get_events(event_id)
+    return ytv.get_event(event_id)
