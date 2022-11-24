@@ -3,4 +3,4 @@
 set -e
 set -x
 
-uvicorn app:app --port 80  --reload
+uvicorn YacineTV:app --port 80  --reload
