@@ -9,9 +9,9 @@ router = APIRouter(tags=["YacineTV"])
 def categories():
     return ytv.get_categories()
 
-@router.get("/event")
-def event():
-    return ytv.get_event()
+@router.get("/events")
+def events():
+    return ytv.get_events()
 
 @router.get("/categories/{category_id}/channels")
 def channels(category_id: int):
@@ -22,5 +22,5 @@ def channel(channel_id: int):
     return ytv.get_channel(channel_id)
 
 @router.get("/event/{channel_id}")
-def channel(event_id: int):
+def event(event_id: int):
     return ytv.get_events(event_id)
