@@ -42,5 +42,5 @@ class YacineTV:
   def get_channel(self, channel_id):
     return self.req(f"/api/channel/{str(channel_id)}")
   
-  def get_channel(self, event_id):
+  def get_event(self, event_id):
     return self.req(f"/api/event/{str(event_id)}")
