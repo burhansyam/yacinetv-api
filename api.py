@@ -35,6 +35,9 @@ class YacineTV:
 
   def get_categories(self):
     return self.req("/api/categories")
+  
+  def get_event(self):
+    return self.req("/api/event")
 
   def get_category_channels(self, category_id):
     return self.req(f"/api/categories/{str(category_id)}/channels")
@@ -42,5 +45,5 @@ class YacineTV:
   def get_channel(self, channel_id):
     return self.req(f"/api/channel/{str(channel_id)}")
   
-  def get_event(self, event_id):
+  def get_events(self, event_id):
     return self.req(f"/api/event/{str(event_id)}")
