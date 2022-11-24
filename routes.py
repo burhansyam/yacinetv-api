@@ -21,6 +21,6 @@ def channels(category_id: int):
 def channel(channel_id: int):
     return ytv.get_channel(channel_id)
 
-@router.get("/event/{channel_id}")
+@router.get("/event/{event_id}")
 def event(event_id: int):
     return ytv.get_event(event_id)
