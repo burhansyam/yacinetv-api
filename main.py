@@ -27,4 +27,4 @@ app.add_middleware(ProfilerMiddleware)
 
 @app.get("/")
 async def index():
-    return {"message": "Hello World"}
+    return {"message": "Matamu Sempal!"}
