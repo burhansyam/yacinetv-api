@@ -3,5 +3,5 @@
 set -e
 set -x
 
-uvicorn --port 80 --host 0.0.0.0 main:app --reload
+uvicorn main:app --reload
 
